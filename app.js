@@ -56,10 +56,9 @@ const game =()=>{
             });
       });
       
-      //we did *3 bcz math.random will pick up b/w 0 and 1 so *3 it will increase/multiply by that
-      //floor is for rounding off the output in console
+    
 
-     //   console.log(computerNumber);
+     
     };
       
     const updateScore =() =>{
@@ -67,17 +66,7 @@ const game =()=>{
         const computerScore = document.querySelector('.computer-score p');
         playerScore.textContent=pScore;
         computerScore.textContent=cScore;
-        // when we will call this fn everyone time we need before return is there in below fn 
-        
-
-      
-        // we now to remove the animation so to do that 22 line code
-
-
-
-    }
-
-
+    
 
     const compareHands =(playerChoice,computerChoice) =>{
             const winner = document.querySelector('.winner');
